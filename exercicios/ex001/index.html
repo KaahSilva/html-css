@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/apple-touch-icon.png" type="image/x-icon">
+    <title>Meu Primeiro Site</title>
+</head>
+<body>
+
+  <h1>OLA MUNDO</h1>
+  <hr>
+  <p>estou aprendo html e css no curso em video </p> 
+  <p>esse site tem favicon</p>
+  
+  <p>esse é um teste para quebra de linha <br> aqui ira quebrar dentro do paragrafo </p>
+
+  <p>esse é um exempo de usar os sinais de &lt; e o outro sinal &gt; para praticar caso seja necessario </p>
+  <p>vamos colocar alguns simbolos comercias:</p>
+  &reg;
+  &copy;
+  &trade;
+
+  <p>vamos colocar alguns emojis</p>
+  &#x1F61C;
+  &#x1F431;
+  &#x26BD;
+
+  <h1>hierarquia do site , esse é o h1 o nivel mais importante</h1>
+  <h2>esse é o h2 o sub titulo do h1</h2>
+  <h3>esse é o h3 o sub titulo do h2</h3>
+  <h3> esse é o h4 o sub titulo do h3 , e assim continua ate o h6</h3>
+
+  <h1>Usando tags semanticas </h1>
+  <h2>tag para coolocar frase em negrito</h2>
+  <p>esse é um texto pata colocar a palavra <strong>abacate </strong>em negrito</p>
+
+  <h2>tag para colocar frase em italico</h2>
+  <p>esse é uma frase para colocar a palavra <em>abobora </em>em italico</p>
+
+  <h1>MAIS EXEMPLOS DE TAGS</h1>
+  <p>usamos a tag mark pata destacar alguma coisa importante ex: <mark>Guilherme</mark> </p>
+  <p> usamos a tag small para deixar um <small>texto pequeno</small> </p>
+  <p>tag del é um exemplo de texto que pode ser lido mas tem que ser <del> desconsiderado </del></p>
+  <p>esse é o ins <ins>oposto do del</ins> , ele é uma parte importante do texto</p>
+  <p>esse é a tag sub , texto subscrito(fica em baixo) ex:H<sub>2</sub>O </p>
+  <p>essa é a tag supp , texto subrescrito (fica em cima) ex: y<sup>20</sup></p>
+
+  <h2>tag para codigo code</h2>
+  <code>
+    <pre>
+   num % 2 == 0(input('digite um numero'))
+   if num % 2 ==0:
+       print(f'o numero {num} é "impar")
+   else:
+      print(f'o numero {num} é "par")
+      print('fim do programa')
+
+    </pre>
+  </code>
+
+  <h2>citaçao simples usa a tag q</h2>
+  <p>como diria um pai de um amigo : <q>o computador é um burro muito rapido</q></p>
+
+  <h3>citacoes maiores usa o backquote e o parametro cite</h3>
+  <p> segundo o livro de mauricio samy </p>
+  <blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">neste capitulo estudaremos com detalhes os elementos mais usados em pagina web e em capitulos posteriores ...... </blockquote>
+
+  <h2>abreviações</h2>
+
+  <p>eu amo o anime <abbr title="Shingeki no Kyojin">SNK</abbr> </p>
+  <h2>tag bdo r para deixar as palavras ao contrario </h2>
+  <bdo dir="rtl"> estou estudando html e css</bdo>
+
+  <h1>LINKS EXTERNOS</h1>
+  <h2>Esse abre na mesma aba</h2>
+  <p>esse link é do <a href="https://www.youtube.com/index">youtube</a></p>
+  <h2>Esse abre em uma aba nova</h2>
+  <p>voce pode acessar <a href="https://github.com/KaahSilva" target="_blank" rel="external">meu github</a></p>
+
+  <h1>LINKS INTERNOS</h1>
+  <h2>os links internos fazem relação com outra pagina que esta dentro da nosso servidor que condiz desrespeito a nossa propia pagina</h2>
+  <p>Essa é a primeira pagina do nosso site , se voce quiser pode ir para a <a href="./pa02.html" target="_self" rel="next">segunda página</a></p>
+
+  <h1>TIPOS DE LISTAS NO HTML</h1>
+  <h2>Lista Odernada : a ordem faz diferença usa a teg ol</h2>
+  <h3> <mark>Padrão</mark> </h3>
+  <ol>
+    <li>acordar</li>
+    <li>escovar os dentes</li>
+    <li>tomar sol</li>
+  </ol>
+  <h3> <mark>lista start</mark></h3>
+  <ol start="2">
+    <li>pegar a frigideira</li>
+    <li>ligar o fogo do fogão</li>
+    <li>quebrar os ovos</li>
+    <li>esperar fritar</li>
+  </ol>
+  <h3>Alfabeto Maiusculo <mark>tag A </mark> </h3>
+  <ol type="A" >
+    <li>abrir a gaveta</li>
+    <li>pegar o noteboot</li>
+    <li>colocar o notebook na cama</li>
+  </ol>
+  <h3>Alfabeto Minusculo <mark>type a</mark> </h3>
+  <ol type="a" >
+    <li>abrir a gaveta</li>
+    <li>pegar o noteboot</li>
+    <li>colocar o notebook na cama</li>
+  </ol>
+
+  <h3> <mark>type I </mark> </h3>
+  <ol type="I" >
+    <li>abrir a gaveta</li>
+    <li>pegar o noteboot</li>
+    <li>colocar o notebook na cama</li>
+  </ol>
+
+  <h3> <ins>type i</ins> </h3>
+  <ol type="i" >
+    <li>abrir a gaveta</li>
+    <li>pegar o noteboot</li>
+    <li>colocar o notebook na cama</li>
+  </ol>
+
+  <h2>Lista nao Odernada tag UL:A ordem não faz diferença</h2>
+  <h3>Padrao</h3>
+  <ul>
+    <li>pão</li>
+    <li>leite</li>
+    <li>feijão</li>
+    <li>bombom</li>
+  </ul>
+  <h3>type cicle</h3>
+  <ul type="circle" >
+    <li>pão</li>
+    <li>leite</li>
+    <li>feijão</li>
+    <li>bombom</li>
+  </ul>
+  <h3>type square</h3>
+  <ul type="square" >
+    <li>pão</li>
+    <li>leite</li>
+    <li>feijão</li>
+    <li>bombom</li>
+  </ul>
+
+  <h1>lista mistas</h1>
+  <h2>listas de jogos favoritos</h2>
+  <ol>
+    <li>GameBoy</li>
+    <ol>
+      <li>pokemon fire red</li>
+      <li>pokemon esmerald</li>
+      <li>zelda</li>
+    </ol>
+
+    <li>PS2</li>
+    <ol>
+      <li>DBZ Bundokai</li>
+      <li>Ultimate Ninja</li>
+      <li>RE4</li>
+    </ol>
+
+  </ol>
+  <h3>a mesma lista usanto o start para que eu de continuidade nos numeros</h3>
+  <ol>
+    <li>GameBoy</li>
+    <ol>
+      <li>pokemon fire red</li>
+      <li>pokemon esmerald</li>
+      <li>zelda</li>
+    </ol>
+
+    <li>PS2</li>
+    <ol start="4">
+      <li>DBZ Bundokai</li>
+      <li>Ultimate Ninja</li>
+      <li>RE4</li>
+    </ol>
+
+  </ol>
+
+  <h2>nives a mais </h2>
+  <h3>franquias de jogos ou animes que mais gostei</h3>
+  <ol>
+    <li>jogos</li>
+    <ul type="square">
+      <li>pokemon</li>
+      <ul type="circle">
+        <li>pokemon fire red</li>
+        <li>pokemon head gold</li>
+      </ul>
+
+      <li>zelda</li>
+      <ul type="circle">
+        <li>ocarina of times</li>
+        <li>minish cap</li>
+      </ul>
+
+    </ul>
+
+    <li>animes</li>
+    <ul type="square">
+      <li>Full metal alquimist: personagens que gosto</li>
+      <ul type="circle">
+        <li>Eduard Elric</li>
+        <li>Alphonse Elric</li>
+        <li>Roy Mustang</li>
+      </ul>
+
+      <li>Naruto:personagens que gosto</li>
+      <ol>
+        <li>Gaara</li>
+        <li>Tobirama</li>
+        <li>Kakashi</li>
+
+      </ol>
+
+    </ul>
+  </ol>
+
+  <h2>LISTAS DE DEFINIÇÃO</h2>
+  <h3>São usadas dentro da tag dl duas tags : A dt para o termo e a dd para a descrição EX:</h3>
+  <dl>
+    <dt>HTML</dt>
+    <dd> essa é uma linguagem de marcação para a criação de conteudo dentro de um site</dd>
+
+
+  </dl>
+
+
+  <h1>APRENDENDO A COLOCAR IMAGENS NO SITE</h1>
+  <p>essa é uma imagem que esta na mesma pasta</p>
+  <img src="logo-css.png" alt="Logo CSS" srcset="">
+  <p>essa imagem esta em uma sub-pasta</p>
+  <img src="imagens/logo-html.png" alt="logo html" srcset="">
+  <p>essa é uma imagem utilizando URL</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/120px-Javascript-736400_960_720.png" alt="" srcset="">
+ <!----------------------- DESAFIO 01 ------------------------------>
+ <h1> 01-DESAFIO DAS MENSAGENS</h1>
+<p> *um <br>**dois <br> ***tres <br> **** quatro</p>
+
+<p> **** quatro<br> ***tres <br> **dois <br> *um </p>
+
+
+
+</body>
+</html>

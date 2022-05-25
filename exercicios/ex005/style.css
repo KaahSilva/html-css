@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(#006eff , #00ffff) ;
+}
+
+h1{
+    color: #796868;
+}
+.titulo-css{
+    background-color: #e9dede;
+    text-align: center;
+}
+
+
+#principal{
+    background-color: black;
+  
+}
+
+
+.basico{
+    background-color: rgb(87, 240, 87);
+   
+}
+.intermediario{
+    background-color: #a6ff00;
+}
+
+.avancado{
+    background-color: rgb(165, 16, 16);
+}

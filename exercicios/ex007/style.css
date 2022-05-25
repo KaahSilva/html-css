@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: blue;
+}
+
+a:active{
+    background-color: yellow;
+}
+
+a::before{
+    content: '⇒';
+    color: rgb(31, 252, 49);
+}
+
+a::after{
+    content: ' me segue!';
+    color: rgb(226, 43, 43);
+    font-family:'Times New Roman', Times, serif
+}
